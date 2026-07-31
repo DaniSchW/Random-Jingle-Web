@@ -54,8 +54,12 @@
         <a class="btn btn-primary btn-lg" href="https://random-jingle.app" data-i18n="hero.cta">Jetzt kostenlos nutzen</a>
       </div>
       <div class="hero-visual">
-        <div class="mockup-frame" role="img" aria-label="App-Screenshot Platzhalter">
-          <span class="mockup-placeholder-label" data-i18n="hero.mockupLabel">App-Screenshot: Kategorien-Ansicht</span>
+        <div class="browser-frame">
+          <div class="browser-frame-bar" aria-hidden="true">
+            <span class="browser-frame-dot"></span><span class="browser-frame-dot"></span><span class="browser-frame-dot"></span>
+          </div>
+          <img src="assets/images/screenshot-overview.webp" width="1280" height="720" loading="eager"
+               data-i18n-alt="hero.screenshotAlt" alt="Screenshot der Random-Jingle-Hauptansicht mit den Kategorien Reaktionen, Übergänge und Fails, farbigen Jingle-Buttons und dem Zufalls-Button">
         </div>
       </div>
     </div>
@@ -91,27 +95,27 @@
       <h2 data-i18n="features.heading">Funktionsübersicht</h2>
       <ul class="feature-grid">
         <li class="feature-card">
-          <span class="feature-icon" aria-hidden="true">🎲</span>
+          <img class="feature-icon" src="assets/images/icon-categories.svg" alt="" width="28" height="28">
           <h3 data-i18n="features.item1Title">Kategorien &amp; Random-Button</h3>
           <p data-i18n="features.item1Text">Sortiere deine Jingles in Kategorien und lass den Zufalls-Button für Überraschungsmomente sorgen.</p>
         </li>
         <li class="feature-card">
-          <span class="feature-icon" aria-hidden="true">✂️</span>
+          <img class="feature-icon" src="assets/images/icon-trim.svg" alt="" width="28" height="28">
           <h3 data-i18n="features.item2Title">Zuschnitt-Funktion</h3>
           <p data-i18n="features.item2Text">Schneide Start und Ende jedes Sounds direkt in der Wellenform-Ansicht auf den Punkt genau zu.</p>
         </li>
         <li class="feature-card">
-          <span class="feature-icon" aria-hidden="true">☁️</span>
+          <img class="feature-icon" src="assets/images/icon-sync.svg" alt="" width="28" height="28">
           <h3 data-i18n="features.item3Title">Cloud-Sync</h3>
           <p data-i18n="features.item3Text">Melde dich an und synchronisiere dein komplettes Board geräteübergreifend – überall identisch.</p>
         </li>
         <li class="feature-card">
-          <span class="feature-icon" aria-hidden="true">📶</span>
+          <img class="feature-icon" src="assets/images/icon-offline.svg" alt="" width="28" height="28">
           <h3 data-i18n="features.item4Title">Offline-Modus</h3>
           <p data-i18n="features.item4Text">Einmal installiert, läuft Random Jingle auch ganz ohne Internetverbindung – ideal bei schlechtem Empfang.</p>
         </li>
         <li class="feature-card">
-          <span class="feature-icon" aria-hidden="true">⌨️</span>
+          <img class="feature-icon" src="assets/images/icon-hotkeys.svg" alt="" width="28" height="28">
           <h3 data-i18n="features.item5Title">Tastenkürzel</h3>
           <p data-i18n="features.item5Text">Weise jedem Jingle ein eigenes Tastenkürzel zu und triggere Sounds blitzschnell ganz ohne Maus.</p>
         </li>
@@ -182,14 +186,26 @@
     <div class="section-inner">
       <h2 data-i18n="gallery.heading">Screenshot-Galerie</h2>
       <ul class="gallery-grid">
-        <li class="mockup-frame mockup-frame-sm" role="img" aria-label="Screenshot Platzhalter 1">
-          <span class="mockup-placeholder-label" data-i18n="gallery.shot1Label">Kategorien-Ansicht mit Random-Button</span>
+        <li class="gallery-item">
+          <div class="browser-frame">
+            <img src="assets/images/screenshot-trim.webp" width="1280" height="720" loading="lazy"
+                 data-i18n-alt="gallery.shot1Alt" alt="Screenshot des Zuschnitt-Editors mit Wellenform-Ansicht und markiertem Start- und Endpunkt eines Jingles">
+          </div>
+          <p class="gallery-caption" data-i18n="gallery.shot1Label">Zuschnitt-Editor</p>
         </li>
-        <li class="mockup-frame mockup-frame-sm" role="img" aria-label="Screenshot Platzhalter 2">
-          <span class="mockup-placeholder-label" data-i18n="gallery.shot2Label">Zuschnitt-Editor mit Wellenform</span>
+        <li class="gallery-item">
+          <div class="browser-frame">
+            <img src="assets/images/screenshot-consent.webp" width="1280" height="720" loading="lazy"
+                 data-i18n-alt="gallery.shot2Alt" alt="Screenshot des Cookie-Consent-Banners mit gleichwertig gestalteten Optionen zum Akzeptieren oder Ablehnen von Werbe-Cookies">
+          </div>
+          <p class="gallery-caption" data-i18n="gallery.shot2Label">Cookie-Consent-Banner</p>
         </li>
-        <li class="mockup-frame mockup-frame-sm" role="img" aria-label="Screenshot Platzhalter 3">
-          <span class="mockup-placeholder-label" data-i18n="gallery.shot3Label">Einstellungen &amp; Cloud-Sync</span>
+        <li class="gallery-item">
+          <div class="browser-frame">
+            <img src="assets/images/screenshot-admin.webp" width="1280" height="720" loading="lazy"
+                 data-i18n-alt="gallery.shot3Alt" alt="Screenshot des Admin-Dashboards mit Nutzerstatistiken und einer Übersichtstabelle">
+          </div>
+          <p class="gallery-caption" data-i18n="gallery.shot3Label">Admin-Dashboard</p>
         </li>
       </ul>
     </div>

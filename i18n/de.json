@@ -18,7 +18,7 @@
     "claim": "Dein Soundboard für den perfekten Moment.",
     "subClaim": "Sounds hochladen, passgenau zuschneiden und live abspielen – im Stream, Podcast oder auf der Bühne. Kostenlos, offline-fähig, in Sekunden startklar.",
     "cta": "Jetzt kostenlos nutzen",
-    "mockupLabel": "App-Screenshot: Kategorien-Ansicht"
+    "screenshotAlt": "Screenshot der Random-Jingle-Hauptansicht mit den Kategorien Reaktionen, Übergänge und Fails, farbigen Jingle-Buttons und dem Zufalls-Button"
   },
   "benefits": {
     "heading": "Kernvorteile",
@@ -66,9 +66,12 @@
   },
   "gallery": {
     "heading": "Screenshot-Galerie",
-    "shot1Label": "Kategorien-Ansicht mit Random-Button",
-    "shot2Label": "Zuschnitt-Editor mit Wellenform",
-    "shot3Label": "Einstellungen & Cloud-Sync"
+    "shot1Label": "Zuschnitt-Editor",
+    "shot1Alt": "Screenshot des Zuschnitt-Editors mit Wellenform-Ansicht und markiertem Start- und Endpunkt eines Jingles",
+    "shot2Label": "Cookie-Consent-Banner",
+    "shot2Alt": "Screenshot des Cookie-Consent-Banners mit gleichwertig gestalteten Optionen zum Akzeptieren oder Ablehnen von Werbe-Cookies",
+    "shot3Label": "Admin-Dashboard",
+    "shot3Alt": "Screenshot des Admin-Dashboards mit Nutzerstatistiken und einer Übersichtstabelle"
   },
   "faq": {
     "heading": "Häufige Fragen",

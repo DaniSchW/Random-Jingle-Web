@@ -228,35 +228,54 @@ section { padding: 64px 0; }
   margin-bottom: 28px;
 }
 
-.hero-visual { flex: 1 1 340px; display: flex; justify-content: center; }
+.hero-visual { flex: 1 1 420px; display: flex; justify-content: center; }
 
-/* Screenshot / mockup placeholders — swapped for real app screenshots later */
-.mockup-frame {
+/* App screenshots, framed like a browser window (dot bar + the screenshot
+ * itself) — reused at full size in the hero and smaller in the gallery. */
+.browser-frame {
   width: 100%;
-  max-width: 340px;
-  aspect-ratio: 9 / 16;
+  max-width: 560px;
   border-radius: var(--radius-lg);
   border: 1px solid var(--border);
-  background:
-    linear-gradient(160deg, var(--bg-elevated) 0%, var(--bg-elevated-2) 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 20px;
+  background: var(--bg-elevated);
+  overflow: hidden;
   box-shadow: 0 20px 60px rgba(0,0,0,0.45);
 }
 
-.mockup-placeholder-label {
-  color: var(--text-muted);
-  font-size: 0.9rem;
-  font-weight: 600;
+.browser-frame-bar {
+  display: flex;
+  gap: 6px;
+  padding: 10px 14px;
+  background: var(--bg-elevated-2);
+  border-bottom: 1px solid var(--border);
 }
 
-.mockup-frame-sm {
-  aspect-ratio: 4 / 3;
+.browser-frame-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--border);
+}
+
+.browser-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: var(--bg);
+}
+
+.gallery-item .browser-frame {
   max-width: none;
   box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+}
+
+.gallery-caption {
+  margin: 10px 2px 0;
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  text-align: center;
 }
 
 /* ---------- Benefits ---------- */
@@ -286,11 +305,17 @@ section { padding: 64px 0; }
 .benefit-card { text-align: center; }
 
 .benefit-icon,
-.feature-icon,
 .audience-icon {
   display: inline-flex;
   font-size: 1.6rem;
   margin-bottom: 10px;
+}
+
+.feature-icon {
+  display: block;
+  width: 28px;
+  height: 28px;
+  margin-bottom: 12px;
 }
 
 .benefit-card h3,

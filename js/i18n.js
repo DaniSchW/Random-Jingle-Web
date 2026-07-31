@@ -56,6 +56,9 @@ const RJSiteI18n = (() => {
     root.querySelectorAll('[data-i18n-aria-label]').forEach((el) => {
       el.setAttribute('aria-label', t(el.getAttribute('data-i18n-aria-label')));
     });
+    root.querySelectorAll('[data-i18n-alt]').forEach((el) => {
+      el.setAttribute('alt', t(el.getAttribute('data-i18n-alt')));
+    });
     document.documentElement.lang = current;
     document.querySelectorAll('.lang-btn').forEach((btn) => {
       btn.classList.toggle('active', btn.getAttribute('data-lang') === current);
