@@ -466,6 +466,27 @@ section { padding: 64px 0; }
   text-align: center;
 }
 
+/* ---------- Language gate (root redirector fallback) ---------- */
+.lang-gate {
+  min-height: calc(100vh - var(--header-h));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  padding: 40px 20px;
+}
+
+.lang-gate p { color: var(--text-muted); max-width: 46ch; }
+
+.lang-gate-links {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 /* ---------- Standalone legal pages ---------- */
 .legal-content {
   max-width: 720px;
