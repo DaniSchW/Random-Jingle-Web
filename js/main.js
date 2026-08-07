@@ -1,19 +1,24 @@
-// Random Jingle marketing site – mobile nav toggle.
-// Language switching lives in js/i18n.js.
+// Random Jingle marketing site – mobile nav toggle + language-select navigation.
 (() => {
   const toggle = document.getElementById('navToggle');
   const nav = document.getElementById('siteNav');
-  if (!toggle || !nav) return;
+  if (toggle && nav) {
+    toggle.addEventListener('click', () => {
+      const open = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', String(open));
+    });
 
-  toggle.addEventListener('click', () => {
-    const open = nav.classList.toggle('open');
-    toggle.setAttribute('aria-expanded', String(open));
-  });
+    nav.querySelectorAll('a').forEach((link) => {
+      link.addEventListener('click', () => {
+        nav.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+  }
 
-  nav.querySelectorAll('a').forEach((link) => {
-    link.addEventListener('click', () => {
-      nav.classList.remove('open');
-      toggle.setAttribute('aria-expanded', 'false');
+  document.querySelectorAll('.lang-select').forEach((select) => {
+    select.addEventListener('change', () => {
+      window.location.href = select.value;
     });
   });
 })();

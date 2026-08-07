@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<!DOCTYPE html><html lang="en"><head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Imprint – Random Jingle</title>
@@ -9,6 +7,14 @@
 <link rel="canonical" href="https://random-jingle.com/en/impressum.html">
 <link rel="alternate" hreflang="de" href="https://random-jingle.com/de/impressum.html">
 <link rel="alternate" hreflang="en" href="https://random-jingle.com/en/impressum.html">
+<link rel="alternate" hreflang="es" href="https://random-jingle.com/es/impressum.html">
+<link rel="alternate" hreflang="pt" href="https://random-jingle.com/pt/impressum.html">
+<link rel="alternate" hreflang="pl" href="https://random-jingle.com/pl/impressum.html">
+<link rel="alternate" hreflang="fr" href="https://random-jingle.com/fr/impressum.html">
+<link rel="alternate" hreflang="nl" href="https://random-jingle.com/nl/impressum.html">
+<link rel="alternate" hreflang="cs" href="https://random-jingle.com/cs/impressum.html">
+<link rel="alternate" hreflang="sv" href="https://random-jingle.com/sv/impressum.html">
+<link rel="alternate" hreflang="no" href="https://random-jingle.com/no/impressum.html">
 <link rel="alternate" hreflang="x-default" href="https://random-jingle.com/de/impressum.html">
 <link rel="stylesheet" href="/css/style.css">
 </head>
@@ -20,9 +26,19 @@
       <span class="logo-mark" aria-hidden="true">🎧</span>
       <span class="logo-text">Random Jingle</span>
     </a>
-    <div class="lang-switch" role="group" aria-label="Sprache / Language">
-      <a class="lang-btn" href="/de/impressum.html">DE</a>
-      <span class="lang-btn active">EN</span>
+    <div class="lang-switch">
+      <select class="lang-select" data-i18n-aria-label="nav.langSwitchLabel" aria-label="Switch language">
+        <option value="/de/impressum.html">Deutsch</option>
+        <option value="/en/impressum.html" selected>English</option>
+        <option value="/es/impressum.html">Español</option>
+        <option value="/pt/impressum.html">Português</option>
+        <option value="/pl/impressum.html">Polski</option>
+        <option value="/fr/impressum.html">Français</option>
+        <option value="/nl/impressum.html">Nederlands</option>
+        <option value="/cs/impressum.html">Čeština</option>
+        <option value="/sv/impressum.html">Svenska</option>
+        <option value="/no/impressum.html">Norsk</option>
+      </select>
     </div>
   </div>
 </header>
@@ -31,12 +47,13 @@
   <h1>Imprint</h1>
   <p><em>Placeholder — will be filled in with the final details for random-jingle.com soon.</em></p>
   <h2>Details pursuant to § 5 TMG (German law)</h2>
-  <p>[Name]<br>
-  [Address]</p>
+  <p><span>[Name]</span><br>
+  <span>[Address]</span></p>
   <h2>Contact</h2>
-  <p>Email: [email address]</p>
-  <p><a href="index.html">&larr; Back to homepage</a></p>
+  <p><span>Email</span>: [E-Mail-Adresse]</p>
+  <p><a href="index.html">← Back to homepage</a></p>
 </main>
+<script src="/js/main.js"></script>
 
-</body>
-</html>
+
+</body></html>

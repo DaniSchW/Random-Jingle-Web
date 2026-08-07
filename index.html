@@ -12,17 +12,27 @@
 <link rel="canonical" href="https://random-jingle.com/de/">
 <link rel="alternate" hreflang="de" href="https://random-jingle.com/de/">
 <link rel="alternate" hreflang="en" href="https://random-jingle.com/en/">
+<link rel="alternate" hreflang="es" href="https://random-jingle.com/es/">
+<link rel="alternate" hreflang="pt" href="https://random-jingle.com/pt/">
+<link rel="alternate" hreflang="pl" href="https://random-jingle.com/pl/">
+<link rel="alternate" hreflang="fr" href="https://random-jingle.com/fr/">
+<link rel="alternate" hreflang="nl" href="https://random-jingle.com/nl/">
+<link rel="alternate" hreflang="cs" href="https://random-jingle.com/cs/">
+<link rel="alternate" hreflang="sv" href="https://random-jingle.com/sv/">
+<link rel="alternate" hreflang="no" href="https://random-jingle.com/no/">
 <link rel="alternate" hreflang="x-default" href="https://random-jingle.com/de/">
 <link rel="stylesheet" href="/css/style.css">
 <noscript><meta http-equiv="refresh" content="0;url=/de/"></noscript>
 <script>
   (function () {
+    var supported = ['de', 'en', 'es', 'pt', 'pl', 'fr', 'nl', 'cs', 'sv', 'no'];
+    var aliases = { nb: 'no', nn: 'no' };
     var langs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
     var target = '/de/';
     for (var i = 0; i < langs.length; i++) {
       var code = (langs[i] || '').slice(0, 2).toLowerCase();
-      if (code === 'en') { target = '/en/'; break; }
-      if (code === 'de') { target = '/de/'; break; }
+      code = aliases[code] || code;
+      if (supported.indexOf(code) !== -1) { target = '/' + code + '/'; break; }
     }
     window.location.replace(target);
   })();
@@ -41,10 +51,18 @@
 
 <main class="lang-gate">
   <p>Weiterleitung … falls das nicht automatisch klappt, wähle deine Sprache:<br>
-  Redirecting … if this doesn't happen automatically, choose your language:</p>
+  Redirecting… if this doesn't happen automatically, choose your language:</p>
   <div class="lang-gate-links">
     <a class="btn btn-primary" href="/de/">Deutsch</a>
     <a class="btn btn-primary" href="/en/">English</a>
+    <a class="btn btn-primary" href="/es/">Español</a>
+    <a class="btn btn-primary" href="/pt/">Português</a>
+    <a class="btn btn-primary" href="/pl/">Polski</a>
+    <a class="btn btn-primary" href="/fr/">Français</a>
+    <a class="btn btn-primary" href="/nl/">Nederlands</a>
+    <a class="btn btn-primary" href="/cs/">Čeština</a>
+    <a class="btn btn-primary" href="/sv/">Svenska</a>
+    <a class="btn btn-primary" href="/no/">Norsk</a>
   </div>
 </main>
 
