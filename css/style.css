@@ -341,6 +341,18 @@ section { padding: 64px 0; }
   margin-bottom: 0;
 }
 
+.audience-card p { margin-bottom: 10px; }
+
+.audience-more {
+  display: inline-block;
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+.audience-more:hover { text-decoration: underline; }
+
 .features, .how-it-works { background: var(--bg-elevated); }
 
 .features h2, .audiences h2, .how-it-works h2, .gallery h2, .faq h2 {
