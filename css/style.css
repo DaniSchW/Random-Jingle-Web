@@ -355,6 +355,13 @@ section { padding: 64px 0; }
 
 .features, .how-it-works { background: var(--bg-elevated); }
 
+.audiences {
+  background-image: linear-gradient(rgba(18, 18, 18, 0.88), rgba(18, 18, 18, 0.88)), url("/assets/images/bg-audiences-dj.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .features h2, .audiences h2, .how-it-works h2, .gallery h2, .faq h2 {
   font-size: clamp(1.5rem, 3vw, 2rem);
   text-align: center;
