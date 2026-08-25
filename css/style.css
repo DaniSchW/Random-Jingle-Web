@@ -179,7 +179,7 @@ section { padding: 64px 0; }
 
 .site-nav a:hover { color: var(--text); }
 
-.nav-cta { color: #fff; }
+.site-nav a.nav-cta { color: #ffffff; }
 
 .lang-switch { display: flex; }
 
