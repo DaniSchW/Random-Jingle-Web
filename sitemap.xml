@@ -141,4 +141,64 @@
     <xhtml:link rel="alternate" hreflang="no" href="https://random-jingle.com/no/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://random-jingle.com/de/"/>
   </url>
+  <url>
+    <loc>https://random-jingle.com/de/zielgruppen/streamer.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://random-jingle.com/de/zielgruppen/streamer.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://random-jingle.com/en/audiences/streamers.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://random-jingle.com/de/zielgruppen/streamer.html"/>
+  </url>
+  <url>
+    <loc>https://random-jingle.com/en/audiences/streamers.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://random-jingle.com/de/zielgruppen/streamer.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://random-jingle.com/en/audiences/streamers.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://random-jingle.com/de/zielgruppen/streamer.html"/>
+  </url>
+  <url>
+    <loc>https://random-jingle.com/de/zielgruppen/podcaster.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://random-jingle.com/de/zielgruppen/podcaster.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://random-jingle.com/en/audiences/podcasters.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://random-jingle.com/de/zielgruppen/podcaster.html"/>
+  </url>
+  <url>
+    <loc>https://random-jingle.com/en/audiences/podcasters.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://random-jingle.com/de/zielgruppen/podcaster.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://random-jingle.com/en/audiences/podcasters.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://random-jingle.com/de/zielgruppen/podcaster.html"/>
+  </url>
+  <url>
+    <loc>https://random-jingle.com/de/zielgruppen/dj-event.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://random-jingle.com/de/zielgruppen/dj-event.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://random-jingle.com/en/audiences/dj-event.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://random-jingle.com/de/zielgruppen/dj-event.html"/>
+  </url>
+  <url>
+    <loc>https://random-jingle.com/en/audiences/dj-event.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://random-jingle.com/de/zielgruppen/dj-event.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://random-jingle.com/en/audiences/dj-event.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://random-jingle.com/de/zielgruppen/dj-event.html"/>
+  </url>
+  <url>
+    <loc>https://random-jingle.com/de/zielgruppen/radio.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://random-jingle.com/de/zielgruppen/radio.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://random-jingle.com/en/audiences/radio.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://random-jingle.com/de/zielgruppen/radio.html"/>
+  </url>
+  <url>
+    <loc>https://random-jingle.com/en/audiences/radio.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://random-jingle.com/de/zielgruppen/radio.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://random-jingle.com/en/audiences/radio.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://random-jingle.com/de/zielgruppen/radio.html"/>
+  </url>
+  <url>
+    <loc>https://random-jingle.com/de/zielgruppen/sport.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://random-jingle.com/de/zielgruppen/sport.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://random-jingle.com/en/audiences/sports.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://random-jingle.com/de/zielgruppen/sport.html"/>
+  </url>
+  <url>
+    <loc>https://random-jingle.com/en/audiences/sports.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://random-jingle.com/de/zielgruppen/sport.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://random-jingle.com/en/audiences/sports.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://random-jingle.com/de/zielgruppen/sport.html"/>
+  </url>
 </urlset>
